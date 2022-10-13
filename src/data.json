@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "task": "ir de compras",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "task": "limpiar la arena de chiqui",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "task": "hacer el desayuno",
+    "completed": true
+  },
+  {
+    "id": 4,
+    "task": "hacer almuerzo",
+    "completed": false
+  }
+]
