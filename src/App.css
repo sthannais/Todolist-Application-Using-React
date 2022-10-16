@@ -17,3 +17,16 @@ h1 {
 .input {
   text-align: center;
 }
+
+.buttonX {
+  color: #ecf6f6;
+  border: none;
+  position: relative;
+  bottom: 30px;
+  left: 93%;
+  background-color: #ecf6f6;
+}
+
+.buttonX:hover {
+  color: black;
+}
