@@ -1,6 +1,6 @@
 import React from "react";
 
-function TodoItem({ todo, onDeleteItem }) {
+function TodoItem({ todo }) {
   const getStyle = () => {
     return {
       textDecoration: todo.completed ? "" : "none",
@@ -13,10 +13,7 @@ function TodoItem({ todo, onDeleteItem }) {
 
   return (
     <>
-      <div style={getStyle()}>{todo.task}</div>
-      <button className="buttonX" onClick={() => onDeleteItem(todo.id)}>
-        X
-      </button>
+      <div style={getStyle()}>{todo.label}</div>
     </>
   );
 }
